@@ -11,6 +11,10 @@
   --accent: #4f27be;
 }
 
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0e091c;
@@ -30,30 +34,40 @@ body {
 
 h1 {
   font-size: 3rem;
-  font-weight: bold;
+  font-family: var(--font-open-sans);
+  font-weight: 800;
 }
 
 h2 {
   font-size: 2.5rem;
-  font-weight: bold;
+  font-family: var(--font-open-sans);
+  font-weight: 700;
 }
 
 h3 {
   font-size: 2rem;
-  font-weight: bold;
+  font-family: var(--font-open-sans);
+  font-weight: 600;
 }
 
 h4 {
   font-size: 1.5rem;
-  font-weight: bold;
+  font-family: var(--font-open-sans);
+  font-weight: 600;
 }
 
 h5 {
   font-size: 1.25rem;
-  font-weight: bold;
+  font-family: var(--font-open-sans);
+  font-weight: 600;
 }
 
 h6 {
   font-size: 1rem;
-  font-weight: bold;
+  font-family: var(--font-open-sans);
+  font-weight: 600;
+}
+
+p {
+  font: 400 0.75rem var(--font-roboto);
 }

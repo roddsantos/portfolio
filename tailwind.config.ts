@@ -18,6 +18,10 @@ export default {
         secondary: "var(--secondary)",
         accent: "var(--accent)",
       },
+      fontFamily: {
+        opensans: ["var(--font-open-sans)"],
+        roboto: ["var(--font-roboto)"],
+      },
     },
   },
   plugins: [],
