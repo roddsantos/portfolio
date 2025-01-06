@@ -18,6 +18,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         container: "var(--container)",
+        "container-2": "var(--container-2)",
         primary: "var(--primary)",
         secondary: "var(--secondary)",
         accent: "var(--accent)",

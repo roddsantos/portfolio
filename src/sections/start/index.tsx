@@ -8,7 +8,7 @@ export default function StartSection() {
     "flex flex-col justify-center items-left w-screen h-1/3 p-12 bg-transparent rounded-xl ml-auto mb-48";
 
   return (
-    <div className={startContainer}>
+    <div className={startContainer} id="start">
       <h1 className="text-primary font-opensans font-bold">Rodrigo</h1>
       <h1 className="text-foreground font-bold font-opensans font-light">
         Santos

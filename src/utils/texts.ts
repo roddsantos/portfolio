@@ -1,5 +1,5 @@
 export const INTRO_TEXT =
-  "Desenvolvedor Full Stack especializado em desenvolvimento web, com experiência em projetos relacionados a P&D, Produção e Gerenciamento Administrativo/Logístico. Tenho conhecimento em Javascript, Typescript, NodeJS, ReactJS, AngularJS, React Native, MongoDB, MySQL, além de bibliotecas relacionadas a estes.";
+  "Desenvolvedor Full Stack especializado em desenvolvimento web, com experiência em projetos relacionados a P&D, Produção e Gerenciamento Administrativo/Logístico. Tenho conhecimento em Javascript, Typescript, NodeJS, ReactJS, AngularJS, React Native, MongoDB, MySQL, além de várias bibliotecas relacionadas a estes.";
 
 export const EDUCATION = [
   {
@@ -22,6 +22,7 @@ export const EDUCATION = [
 
 export const EXPERIENCE = [
   {
+    id: "fne-fc",
     name: "Fundação Nokia de Ensino (agora Fundação Mathias Machline)",
     role: "Estagiário",
     period: "Abril 2014 - Fevereiro 2015",
@@ -37,6 +38,7 @@ export const EXPERIENCE = [
     skills: ["C#", "API REST"],
   },
   {
+    id: "icts",
     name: "Grupo ICTS",
     role: "Analista de Desenvolvimento de Sistemas",
     period: "Maio 2019 - Novembro 2024",
