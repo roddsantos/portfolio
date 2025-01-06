@@ -1,14 +1,16 @@
 import Image from "next/image";
 import Profile from "../../../public/images/rodrigo_santos.jpeg";
 import { INTRO_TEXT } from "@/utils/texts";
-import { container } from "@/styles/containers";
+import { container, section } from "@/styles/containers";
 
 export default function IntroSection() {
-  const intro = "w-full h-auto";
-
+  const shadow =
+    "shadow-[10px_10px_0px_-3px_var(--container),10px_10px_var(--accent)]";
   return (
-    <div className={intro} id="intro">
-      <div className={`${container} flex-wrap bg-container`}>
+    <div className={section} id="intro">
+      <div
+        className={`${container} ${shadow} bg-container border-accent flex-wrap`}
+      >
         <div className="flex items-center mb-8 w-full">
           <h3>Introdução</h3>
         </div>

@@ -5,11 +5,12 @@
 :root {
   --background: #e9e4f6;
   --foreground: #120d21;
-  --container: #b1afb80d;
-  --container-2: #6b696e0d;
+  --container: #9797e465;
+  --container-2: #a780e270;
   --primary: #2c1179;
   --secondary: #9073dd;
   --accent: #4f27be;
+  --transparent: transparent;
 }
 
 .material-symbols-outlined {
@@ -25,6 +26,7 @@
     --primary: #a287ef;
     --secondary: #32276e;
     --accent: #6b2ba7;
+    --transparent: transparent;
   }
 }
 

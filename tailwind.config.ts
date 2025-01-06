@@ -22,6 +22,7 @@ export default {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
         accent: "var(--accent)",
+        transparent: "var(--transparent)",
       },
       fontFamily: {
         opensans: ["var(--font-open-sans)"],
