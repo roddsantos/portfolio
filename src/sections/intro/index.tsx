@@ -12,14 +12,14 @@ export default function IntroSection() {
         <h3>Introdução</h3>
       </div>
       <div className={container}>
-        <div className="w-1/2 h-80 overflow-hidden ">
+        <div className="w-1/3 h-60 overflow-hidden ">
           <Image
-            className="object-cover pos top-10 w-80 h-80 rounded-xl"
+            className="object-cover pos top-10 w-60 h-60 rounded-xl"
             src={Profile}
             alt="profile-photo"
           />
         </div>
-        <h4 className="w-1/2">{INTRO_TEXT}</h4>
+        <h5 className="w-full">{INTRO_TEXT}</h5>
       </div>
     </div>
   );

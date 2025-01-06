@@ -19,10 +19,10 @@
   :root {
     --background: #0e091c;
     --foreground: #e4dff3;
-    --container: #2d11780d;
+    --container: #2d11784b;
     --primary: #a287ef;
-    --secondary: #3e228d;
-    --accent: #673ed8;
+    --secondary: #32276e;
+    --accent: #6b2ba7;
   }
 }
 
@@ -39,19 +39,19 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   font-family: var(--font-open-sans);
   font-weight: 700;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-family: var(--font-open-sans);
   font-weight: 600;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-family: var(--font-open-sans);
   font-weight: 600;
 }

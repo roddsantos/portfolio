@@ -10,6 +10,10 @@ export default {
   ],
   theme: {
     extend: {
+      transitionProperty: {
+        height: "height",
+        "max-height": "max-height",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
