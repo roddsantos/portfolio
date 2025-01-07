@@ -20,14 +20,10 @@ export default function ExperienceSection() {
   const skills = "flex flex-wrap mt-4";
   const skill =
     "rounded-xl w-fit h-max py-1 px-4 bg-accent mr-2 mb-2 text-white";
-  const shadow =
-    "shadow-[10px_10px_0px_-3px_var(--container-2),10px_10px_var(--accent)]";
 
   return (
     <div className={section} id="experience">
-      <div
-        className={`${container} ${shadow} bg-container-2 border-accent flex-wrap xl:space-y-8`}
-      >
+      <div className={`${container} bg-container-2 flex-wrap xl:space-y-8`}>
         <h3 className="mr-auto">Experiência</h3>
         {EXPERIENCE.map((experience, index) => (
           <div

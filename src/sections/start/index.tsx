@@ -1,7 +1,10 @@
+"use client";
 import { secondaryButton } from "@/styles/buttons";
 import Image from "next/image";
-import GitHub from "../../../public/images/github_white.png";
-import Linkedin from "../../../public/images/linkedin_white.png";
+import GitHub from "../../../public/images/github.png";
+import Linkedin from "../../../public/images/linkedin_black.svg";
+import GitHubWhite from "../../../public/images/github_white.png";
+import LinkedinWhite from "../../../public/images/linkedin_white.png";
 
 export default function StartSection() {
   const startContainer =
@@ -9,11 +12,9 @@ export default function StartSection() {
 
   return (
     <div className={startContainer} id="start">
-      <h1 className="text-primary font-opensans font-bold">Rodrigo</h1>
-      <h1 className="text-foreground font-bold font-opensans font-light">
-        Santos
-      </h1>
-      <h4 className="text-foreground mt-2">Ful Stack Web Developer</h4>
+      <h1 className="text-primary">Rodrigo</h1>
+      <h1 className="text-foreground font-light">Santos</h1>
+      <h4 className="text-foreground mt-2">Full Stack Web Developer</h4>
       <div className="space-x-2">
         <a href="http://linkedin.com/in/roddsantos" target="_blank">
           <button className={secondaryButton + " mt-2"}>

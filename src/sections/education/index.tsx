@@ -10,8 +10,6 @@ export default function EducationSection() {
     "flex inline-block flex-col p-6 w-full overflow-y-hidden bg-secondary mb-4 rounded-xl cursor-pointer";
   const transition =
     "transition-all overflow-hidden ease-in-out duration-500 max-h-0";
-  const shadow =
-    "shadow-[10px_10px_0px_-3px_var(--transparent),10px_10px_var(--accent)]";
 
   const handleExpander = (index: number) => {
     const collapser = document.getElementById(`collapser-${index}`);
@@ -25,9 +23,7 @@ export default function EducationSection() {
 
   return (
     <div className={section} id="education">
-      <div
-        className={`${container} ${shadow} bg-transparent border-accent flex-wrap xl:space-y-8`}
-      >
+      <div className={`${container} bg-transparent flex-wrap xl:space-y-8`}>
         <h3 className="mr-auto">Educação</h3>
         {EDUCATION.map((ed, index) => (
           <div
