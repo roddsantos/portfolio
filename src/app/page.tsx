@@ -1,17 +1,20 @@
 import EducationSection from "@/sections/education";
+import ExperienceSection from "@/sections/experience";
 import IntroSection from "@/sections/intro";
 import StartSection from "@/sections/start";
 
 export default function Home() {
   const screen =
-    "flex justify-center items-center width-screen height-screen py-32 px-0 overflow-x-hidden overflow-y-auto";
-  const content = "block max-w-screen-xl";
+    "flex justify-center items-center w-screen h-full px-0 overflow-x-hidden overflow-y-auto";
+  const content =
+    "block xl:w-full w-[inherit] xl:max-w-screen-xl space-y-32 px-4 py-32";
   return (
     <div className={screen}>
       <div className={content}>
         <StartSection />
         <IntroSection />
         <EducationSection />
+        <ExperienceSection />
         {/* <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
           <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
             <Image

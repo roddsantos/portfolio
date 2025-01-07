@@ -1,25 +1,23 @@
 import Image from "next/image";
-import Profile from "../../../public/images/rodrigo_santos.jpeg";
+import Profile from "../../../public/images/rodrigo-santos-edited.jpeg";
 import { INTRO_TEXT } from "@/utils/texts";
+import { container, section, shadows } from "@/styles/containers";
 
 export default function IntroSection() {
-  const intro = "w-full h-auto";
-  const container =
-    "flex flex-row justify-center items-center p-12 bg-container rounded-xl";
   return (
-    <div className={intro}>
-      <div className="flex items-center ml-12 my-4">
-        <h3>Introdução</h3>
-      </div>
-      <div className={container}>
-        <div className="w-1/3 h-60 overflow-hidden ">
+    <div className={section} id="intro">
+      <div className={`${container} bg-container flex-wrap`}>
+        <div className="flex items-center mb-8 w-full">
+          <h3>Introdução</h3>
+        </div>
+        <div className="w-max xl:w-1/4 h-60">
           <Image
-            className="object-cover pos top-10 w-60 h-60 rounded-xl"
+            className={`object-cover pos w-60 h-60 ${shadows}`}
             src={Profile}
             alt="profile-photo"
           />
         </div>
-        <h5 className="w-full">{INTRO_TEXT}</h5>
+        <h5 className="w-full xl:w-2/3">{INTRO_TEXT}</h5>
       </div>
     </div>
   );

@@ -1,13 +1,11 @@
 "use client";
+import { container, section } from "@/styles/containers";
 import { EDUCATION } from "@/utils/texts";
 import { useState } from "react";
 
 export default function EducationSection() {
   const [expander, setExpander] = useState(EDUCATION.map(() => false));
 
-  const intro = "w-full h-auto";
-  const container =
-    "flex flex-wrap justify-center items-center p-12 bg-transparent rounded-xl w-full";
   const formation =
     "flex inline-block flex-col p-6 w-full overflow-y-hidden bg-secondary mb-4 rounded-xl cursor-pointer";
   const transition =
@@ -24,19 +22,19 @@ export default function EducationSection() {
   };
 
   return (
-    <div className={intro}>
-      <div className={container}>
-        <h3 className="mr-auto my-4">Educação</h3>
+    <div className={section} id="education">
+      <div className={`${container} bg-transparent flex-wrap xl:space-y-8`}>
+        <h3 className="mr-auto">Educação</h3>
         {EDUCATION.map((ed, index) => (
           <div
             onClick={() => handleExpander(index)}
-            className={`${formation}`}
+            className={`${formation} mb-16`}
             key={ed.key}
           >
-            <h4 className="text-primary">{ed.name}</h4>
+            <h4 className="text-primary mb-2">{ed.name}</h4>
             <h5 className="text-foreground">{ed.formation}</h5>
             <div id={`collapser-${index}`} className={transition}>
-              <h6>{ed.period}</h6>
+              <h6 className="mb-2">{ed.period}</h6>
               <p>{ed.description}</p>
             </div>
           </div>
