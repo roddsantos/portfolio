@@ -31,10 +31,10 @@ export default function EducationSection() {
             className={`${formation} mb-16`}
             key={ed.key}
           >
-            <h4 className="text-primary">{ed.name}</h4>
+            <h4 className="text-primary mb-2">{ed.name}</h4>
             <h5 className="text-foreground">{ed.formation}</h5>
             <div id={`collapser-${index}`} className={transition}>
-              <h6>{ed.period}</h6>
+              <h6 className="mb-2">{ed.period}</h6>
               <p>{ed.description}</p>
             </div>
           </div>

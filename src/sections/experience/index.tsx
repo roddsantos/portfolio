@@ -31,21 +31,22 @@ export default function ExperienceSection() {
             className={`${item} bg-accent`}
             onClick={() => handleExpander(index)}
           >
-            <h4>{experience.name}</h4>
-            <h5>{experience.role}</h5>
-            <h5>{experience.period}</h5>
+            <h4 className="mb-2">{experience.role}</h4>
+            <h5>{experience.name}</h5>
+            <h5 className="mb-2">{experience.period}</h5>
             <div id={`exp-${index}`} className={transition}>
-              <p>{experience.description}</p>
+              <p className="mb-2">{experience.description}</p>
               {experience.activities.map((activity, index) => (
                 <li key={`exp-act-${index}`}>{activity}</li>
               ))}
-            </div>
-            <div className={skills}>
-              {experience.skills.map((sk, index) => (
-                <div className={skill} key={`exp-skill-${index}`}>
-                  {sk}
-                </div>
-              ))}
+              <h6 className="mt-4">Tecnologias utilizadas:</h6>
+              <div className={skills}>
+                {experience.skills.map((sk, index) => (
+                  <div className={skill} key={`exp-skill-${index}`}>
+                    {sk}
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         ))}

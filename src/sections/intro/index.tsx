@@ -10,14 +10,14 @@ export default function IntroSection() {
         <div className="flex items-center mb-8 w-full">
           <h3>Introdução</h3>
         </div>
-        <div className="w-1/4 h-60">
+        <div className="w-max xl:w-1/4 h-60">
           <Image
             className={`object-cover pos w-60 h-60 ${shadows}`}
             src={Profile}
             alt="profile-photo"
           />
         </div>
-        <h5 className="w-2/3">{INTRO_TEXT}</h5>
+        <h5 className="w-full xl:w-2/3">{INTRO_TEXT}</h5>
       </div>
     </div>
   );
