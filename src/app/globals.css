@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #e9e4f6;
+  --foreground: #120d21;
+  --container: #9797e465;
+  --container-2: #a780e270;
+  --primary: #2c1179;
+  --secondary: #9073dd;
+  --accent: #4f27be;
+  --transparent: transparent;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1b1331;
+    --foreground: #e4dff3;
+    --container: #2d11784b;
+    --container-2: #3407b14b;
+    --primary: #a287ef;
+    --secondary: #32276e;
+    --accent: #6b2ba7;
+    --transparent: transparent;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 1rem;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font: 800 3rem var(--font-lexend-mega);
+  @media screen and (max-width: 600px) {
+    font: 800 2rem var(--font-lexend-mega);
+  }
+}
+
+h2 {
+  font: 700 2.6rem var(--font-lexend-mega);
+}
+
+h3 {
+  font: 600 2.2rem var(--font-lexend-mega);
+  @media screen and (max-width: 600px) {
+    font: 600 2.2rem var(--font-lexend-mega);
+  }
+}
+
+h4 {
+  font: 600 1.6rem var(--font-archivo);
+}
+
+h5 {
+  font: 600 1.25rem var(--font-archivo);
+}
+
+h6 {
+  font: 600 1rem var(--font-archivo);
+}
+
+p {
+  font: 400 1rem var(--font-open-sans);
+}
+
+li {
+  font: 400 1rem var(--font-open-sans);
+}
