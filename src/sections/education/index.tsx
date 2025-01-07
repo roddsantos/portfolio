@@ -22,7 +22,7 @@ export default function EducationSection() {
   };
 
   return (
-    <div className={section} id="education">
+    <div className={section} id="education" tabIndex={0}>
       <div className={`${container} bg-transparent flex-wrap xl:space-y-8`}>
         <h3 className="mr-auto">Educação</h3>
         {EDUCATION.map((ed, index) => (

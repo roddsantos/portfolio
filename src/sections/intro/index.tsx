@@ -5,7 +5,7 @@ import { container, section, shadows } from "@/styles/containers";
 
 export default function IntroSection() {
   return (
-    <div className={section} id="intro">
+    <div className={section} id="intro" tabIndex={0}>
       <div className={`${container} bg-container flex-wrap`}>
         <div className="flex items-center mb-8 w-full">
           <h3>Introdução</h3>

@@ -22,7 +22,7 @@ export default function ExperienceSection() {
     "rounded-xl w-fit h-max py-1 px-4 bg-accent mr-2 mb-2 text-white";
 
   return (
-    <div className={section} id="experience">
+    <div className={section} id="experience" tabIndex={0}>
       <div className={`${container} bg-container-2 flex-wrap xl:space-y-8`}>
         <h3 className="mr-auto">Experiência</h3>
         {EXPERIENCE.map((experience, index) => (
