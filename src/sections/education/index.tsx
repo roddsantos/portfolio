@@ -1,13 +1,11 @@
 "use client";
-import { container, section } from "@/styles/containers";
+import { container, item, section } from "@/styles/containers";
 import { EDUCATION } from "@/utils/texts";
 import { useState } from "react";
 
 export default function EducationSection() {
   const [expander, setExpander] = useState(EDUCATION.map(() => false));
 
-  const formation =
-    "flex inline-block flex-col p-6 w-full overflow-y-hidden bg-secondary mb-4 rounded-xl cursor-pointer";
   const transition =
     "transition-all overflow-hidden ease-in-out duration-500 max-h-0";
 
@@ -22,13 +20,13 @@ export default function EducationSection() {
   };
 
   return (
-    <div className={section} id="education" tabIndex={0}>
-      <div className={`${container} bg-transparent flex-wrap xl:space-y-8`}>
+    <section className={section} id="education" tabIndex={0}>
+      <article className={`${container} bg-container-2 flex-wrap xl:space-y-8`}>
         <h3 className="mr-auto">Educação</h3>
         {EDUCATION.map((ed, index) => (
           <div
             onClick={() => handleExpander(index)}
-            className={`${formation} mb-16`}
+            className={`${item} mb-16 w-full`}
             key={ed.key}
           >
             <h4 className="text-primary mb-2">{ed.name}</h4>
@@ -39,7 +37,7 @@ export default function EducationSection() {
             </div>
           </div>
         ))}
-      </div>
-    </div>
+      </article>
+    </section>
   );
 }

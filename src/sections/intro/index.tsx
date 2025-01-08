@@ -5,20 +5,18 @@ import { container, section, shadows } from "@/styles/containers";
 
 export default function IntroSection() {
   return (
-    <div className={section} id="intro" tabIndex={0}>
-      <div className={`${container} bg-container flex-wrap`}>
-        <div className="flex items-center mb-8 w-full">
-          <h3>Introdução</h3>
-        </div>
+    <section className={section} id="intro" tabIndex={0}>
+      <article className={`${container} bg-container flex-wrap`}>
+        <h3 className="flex items-center mb-8 w-full">Introdução</h3>
         <div className="w-max xl:w-1/4 h-60">
           <Image
             className={`object-cover pos w-60 h-60 ${shadows}`}
             src={Profile}
-            alt="profile-photo"
+            alt="profile photo"
           />
         </div>
-        <h5 className="w-full xl:w-2/3">{INTRO_TEXT}</h5>
-      </div>
-    </div>
+        <p className="w-full xl:w-2/3 text-xl text-bold">{INTRO_TEXT}</p>
+      </article>
+    </section>
   );
 }

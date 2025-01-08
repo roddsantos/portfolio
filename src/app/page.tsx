@@ -1,6 +1,7 @@
 import EducationSection from "@/sections/education";
 import ExperienceSection from "@/sections/experience";
 import IntroSection from "@/sections/intro";
+import ProjectsSection from "@/sections/projects";
 import StartSection from "@/sections/start";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <IntroSection />
         <EducationSection />
         <ExperienceSection />
+        <ProjectsSection />
       </div>
     </div>
   );
