@@ -1,4 +1,5 @@
 "use client";
+import Resume from "@/components/Resume";
 import CustomTooltip from "@/components/Tooltip";
 import { primaryButton, secondaryButton } from "@/styles/buttons";
 
@@ -13,11 +14,11 @@ export default function StartSection() {
       <h4 className="text-foreground mt-2">Full Stack Web Developer</h4>
       <div className="space-x-2 mt-16 flex">
         <CustomTooltip title="Ver currículo">
-          <a className="h-max" href="" target="_blank">
+          <Resume>
             <button className={secondaryButton + " h-[50px]"}>
               <i className="bx bxs-file-pdf text-foreground text-3xl"></i>
             </button>
-          </a>
+          </Resume>
         </CustomTooltip>
         <CustomTooltip title="Linkedin">
           <a

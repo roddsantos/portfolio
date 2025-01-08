@@ -1,4 +1,5 @@
 "use client";
+import Resume from "@/components/Resume";
 import CustomTooltip from "@/components/Tooltip";
 import { primaryButton } from "@/styles/buttons";
 import {
@@ -86,9 +87,7 @@ export default function ProjectsSection() {
         ))}
         <p className="font-bold text-left w-full">
           Para mais informações dos projetos, acesse o{" "}
-          <a className="text-accent" href="">
-            currículo
-          </a>
+          <Resume>currículo</Resume>
         </p>
       </article>
     </section>
