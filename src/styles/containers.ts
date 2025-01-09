@@ -1,7 +1,7 @@
 export const section = "w-full h-auto mb-8";
 
 export const container =
-  "flex justify-center p-12 space-x-0 space-y-8 md:space-x-8 md:space-y-8 border-solid border-4 border-black shadow-[12px_15px_black] rounded-0";
+  "flex justify-center p-6 md:p-12 space-x-0 space-y-8 md:space-x-8 md:space-y-8 border-solid border-4 border-black shadow-[12px_15px_black] rounded-0";
 
 export const shadows =
   " border-black border-solid border-4 shadow-[10px_10px_black]";
