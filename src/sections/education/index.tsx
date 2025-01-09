@@ -21,7 +21,7 @@ export default function EducationSection() {
 
   return (
     <section className={section} id="education" tabIndex={0}>
-      <article className={`${container} bg-container-2 flex-wrap xl:space-y-8`}>
+      <article className={`${container} bg-container flex-wrap md:space-y-8`}>
         <h3 className="mr-auto">Educação</h3>
         {EDUCATION.map((ed, index) => (
           <div
@@ -29,7 +29,7 @@ export default function EducationSection() {
             className={`${item} mb-16 w-full`}
             key={ed.key}
           >
-            <h4 className="text-primary mb-2">{ed.name}</h4>
+            <h4 className="text-foreground mb-2">{ed.name}</h4>
             <h5 className="text-foreground">{ed.formation}</h5>
             <div id={`collapser-${index}`} className={transition}>
               <h6 className="mb-2">{ed.period}</h6>

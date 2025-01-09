@@ -26,7 +26,7 @@ export default function ProjectsSection() {
   };
   return (
     <section className={section} tabIndex={0}>
-      <article className={`${container} bg-container-2 flex-wrap xl:space-y-8`}>
+      <article className={`${container} bg-transparent flex-wrap md:space-y-8`}>
         <h3 className="mr-auto w-full">Projetos</h3>
         {PROJECTS.map((project, index) => (
           <div
@@ -34,7 +34,7 @@ export default function ProjectsSection() {
             key={project.id}
             onClick={() => handleExpander(index)}
           >
-            <div className="flex justify-between xl:flex-row flex-col">
+            <div className="flex justify-between md:flex-row flex-col">
               <div>
                 <h4 className="mb-4">
                   <i className={`${project.icon} text-accent mr-4`}></i>
@@ -44,7 +44,7 @@ export default function ProjectsSection() {
               </div>
               <div>
                 {project.links.length > 0 && (
-                  <h5 className="mb-2 xl:text-end text-start">Links:</h5>
+                  <h5 className="mb-2 md:text-end text-start">Links:</h5>
                 )}
                 <div className="flex flex-wrap pb-4 space-x-4">
                   {project.links.map((link) => (
@@ -56,7 +56,7 @@ export default function ProjectsSection() {
                       <a href={link.url} target="_blank">
                         <button className={primaryButton + " h-[50px]"}>
                           <i
-                            className={`${link.icon} text-background text-3xl`}
+                            className={`${link.icon} text-foreground text-3xl`}
                           ></i>
                         </button>
                       </a>

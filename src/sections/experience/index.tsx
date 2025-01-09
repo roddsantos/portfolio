@@ -35,7 +35,7 @@ export default function ExperienceSection() {
         {EXPERIENCE.map((experience, index) => (
           <div
             key={experience.id}
-            className={`${item} bg-accent xl:w-[48%] w-full`}
+            className={`${item} bg-accent xl:w-[47%] w-full`}
             onClick={() => handleExpander(index)}
           >
             <h4 className="mb-2">{experience.role}</h4>

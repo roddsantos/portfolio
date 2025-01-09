@@ -13,7 +13,7 @@ export default function StartSection() {
       <h1 className="text-foreground font-light">Santos</h1>
       <h4 className="text-foreground mt-2">Full Stack Web Developer</h4>
       <div className="space-x-2 mt-16 flex">
-        <CustomTooltip title="Ver currículo">
+        <CustomTooltip title="Currículo">
           <Resume>
             <button className={secondaryButton + " h-[50px]"}>
               <i className="bx bxs-file-pdf text-foreground text-3xl"></i>
@@ -27,21 +27,21 @@ export default function StartSection() {
             target="_blank"
           >
             <button className={primaryButton + " h-[50px]"}>
-              <i className="devicon-linkedin-plain text-background text-3xl"></i>
+              <i className="devicon-linkedin-plain text-foreground text-3xl"></i>
             </button>
           </a>
         </CustomTooltip>
         <CustomTooltip title="Github">
           <a href="http://github.com/roddsantos" target="_blank">
             <button className={primaryButton + " h-[50px]"}>
-              <i className="devicon-github-original text-background text-3xl"></i>
+              <i className="devicon-github-original text-foreground text-3xl"></i>
             </button>
           </a>
         </CustomTooltip>
         <CustomTooltip title="Email">
           <a href="mailto:rodri.soares95@gmail.com">
             <button className={primaryButton + " h-[50px]"}>
-              <i className="bx bxs-envelope text-background text-3xl"></i>
+              <i className="bx bxs-envelope text-foreground text-3xl"></i>
             </button>
           </a>
         </CustomTooltip>
