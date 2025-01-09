@@ -91,6 +91,7 @@ export const EXPERIENCE = [
 export const PROJECTS = [
   {
     id: "friend-car",
+    icon: "bx bxs-car",
     name: "Friend Car",
     description:
       "Criação e desenvolvimento de startup relacionada a mobilidade urbana: criação de startup com o objetivo de permitir que pessoas possam pedir e oferecer caronas caso ambas tenham o mesmo destino",
@@ -102,5 +103,114 @@ export const PROJECTS = [
       "Integração com APIs de terceiros (Facebook) para autenticação de dados",
     ],
     skills: ["C#", "API REST"],
+    mainSkills: [{ name: "C#", className: "devicon-csharp-plain" }],
+    period: "Abril 2014 - Fevereiro 2015",
+    links: [],
   },
+  {
+    id: "medmob",
+    icon: "bx bx-plus-medical",
+    name: "MedMob",
+    description:
+      "Aplicativo para solicitação de consultas médicas - o MedMob tem como objetivo principal permitir a um usuário solicitar uma consulta, definir um local para que a mesma ocorra, e permitir a um médico buscar, aceitar ou rejeitar consultas.",
+    period: "Janeiro 2021 - Novembro 2021",
+    skills: [
+      "react native",
+      "nodeJS",
+      "mongodb",
+      "javascript",
+      "typescript",
+      "redux",
+      "redux-saga",
+      "expo",
+      "google maps API",
+      "AWS SNS",
+    ],
+    mainSkills: [
+      { name: "React Native", className: "devicon-react-original" },
+      { name: "NodeJS", className: "devicon-nodejs-plain" },
+      { name: "MongoDB", className: "devicon-mongodb-plain" },
+    ],
+    activities: [],
+    links: [
+      {
+        icon: "bx bxs-graduation",
+        url: "https://riu.ufam.edu.br/handle/prefix/5982",
+        title: "Repositório UFAM",
+      },
+    ],
+  },
+  {
+    id: "home-finances",
+    icon: "bx bxs-credit-card-alt",
+    name: "Home Finances",
+    description:
+      "O projeto tem como objetivo ser um gerenciador de despesas individuais. Foi utilizado o AngularJS no frontend, e o NestJS no backend, além do MySQL como banco de dados",
+    period: "Janeiro 2023 - em andamento",
+    skills: [
+      "angular",
+      "nestJS",
+      "mysql",
+      "javascript",
+      "typescript",
+      "CSS",
+      "HTML",
+      "docker",
+    ],
+    mainSkills: [
+      { name: "AngularJS", className: "devicon-angularjs-plain" },
+      { name: "NestJS", className: "devicon-nestjs-original" },
+      { name: "MySQL", className: "devicon-mysql-original" },
+    ],
+    links: [
+      {
+        icon: "devicon-github-original",
+        url: "https://github.com/roddsantos/home-finances",
+        title: "Github FrontEnd",
+      },
+      {
+        icon: "devicon-github-original backend",
+        url: "https://github.com/roddsantos/home-finances-backend",
+        title: "Github BackEnd",
+      },
+    ],
+  },
+  {
+    id: "portfolio",
+    icon: "bx bxs-user",
+    name: "Portfolio",
+    description:
+      "Portfólio com resumo acadêmico e profissional. Feito utilizando React + NextJs e TailwindCSS",
+    period: "Dezembro 2024 - Janeiro 2025",
+    skills: ["react", "nextJS", "tailwindCSS", "HTML"],
+    mainSkills: [
+      { name: "NextJS", className: "devicon-nextjs-original-wordmark" },
+      { name: "TailwindCSS", className: "devicon-tailwindcss-original" },
+      { name: "HTML", className: "devicon-html5-plain" },
+    ],
+    links: [
+      {
+        icon: "devicon-github-original",
+        url: "https://github.com/roddsantos/portfolio",
+        title: "Repositório Github",
+      },
+    ],
+  },
+];
+
+export const SKILLS = [
+  { name: "TypeScript", className: "devicon-typescript-plain" },
+  { name: "CSS", className: "devicon-css3-plain" },
+  { name: "HTML", className: "devicon-html5-plain" },
+  { name: "ReactJS", className: "devicon-react-plain" },
+  { name: "AngularJS", className: "devicon-angularjs-plain" },
+  { name: "NestJS", className: "devicon-nestjs-original" },
+  { name: "NodeJS", className: "devicon-nodejs-plain" },
+  { name: "Redux", className: "devicon-redux-original" },
+  { name: "React Native", className: "devicon-react-original" },
+  { name: "MySQL", className: "devicon-mysql-original" },
+  { name: "MongoDB", className: "devicon-mongodb-plain" },
+  { name: "Docker", className: "devicon-docker-plain" },
+  { name: "Git", className: "devicon-git-plain" },
+  { name: "Jest", className: "devicon-jest-plain" },
 ];
