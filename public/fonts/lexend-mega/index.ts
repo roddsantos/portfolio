@@ -10,6 +10,10 @@ export const lexendMega = localFont({
       path: "./LexendMega-Bold.ttf",
       weight: "700",
     },
+    {
+      path: "./LexendMega-ExtraBold.ttf",
+      weight: "800",
+    },
   ],
   variable: "--font-lexend-mega",
 });

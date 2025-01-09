@@ -200,11 +200,17 @@ export const PROJECTS = [
 
 export const SKILLS = [
   { name: "TypeScript", className: "devicon-typescript-plain" },
+  { name: "CSS", className: "devicon-css3-plain" },
+  { name: "HTML", className: "devicon-html5-plain" },
+  { name: "ReactJS", className: "devicon-react-plain" },
   { name: "AngularJS", className: "devicon-angularjs-plain" },
   { name: "NestJS", className: "devicon-nestjs-original" },
-  { name: "MySQL", className: "devicon-mysql-original" },
-  { name: "React Native", className: "devicon-react-original" },
   { name: "NodeJS", className: "devicon-nodejs-plain" },
+  { name: "Redux", className: "devicon-redux-original" },
+  { name: "React Native", className: "devicon-react-original" },
+  { name: "MySQL", className: "devicon-mysql-original" },
   { name: "MongoDB", className: "devicon-mongodb-plain" },
   { name: "Docker", className: "devicon-docker-plain" },
+  { name: "Git", className: "devicon-git-plain" },
+  { name: "Jest", className: "devicon-jest-plain" },
 ];
