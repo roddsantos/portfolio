@@ -1,5 +1,6 @@
 "use client";
 import Resume from "@/components/Resume";
+import SectionTitle from "@/components/SectionTitle";
 import CustomTooltip from "@/components/Tooltip";
 import { primaryButton } from "@/styles/buttons";
 import {
@@ -27,7 +28,7 @@ export default function ProjectsSection() {
   return (
     <section className={section} tabIndex={0}>
       <article className={`${container} bg-transparent flex-wrap md:space-y-8`}>
-        <h3 className="mr-auto w-full">Projetos</h3>
+        <SectionTitle icon="cases" title="Projetos" />
         {PROJECTS.map((project, index) => (
           <div
             className={`${item} bg-accent w-full`}

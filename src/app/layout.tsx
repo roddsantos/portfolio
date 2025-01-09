@@ -27,6 +27,10 @@ export default function RootLayout({
           href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
           rel="stylesheet"
         />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
       </head>
       <body
         className={`${openSans.variable} ${lexendMega.variable} ${archivo.variable} ${archivoitalic.variable} antialiased`}

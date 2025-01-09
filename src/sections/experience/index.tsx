@@ -1,6 +1,7 @@
 "use client";
 
 import Resume from "@/components/Resume";
+import SectionTitle from "@/components/SectionTitle";
 import {
   container,
   item,
@@ -31,7 +32,7 @@ export default function ExperienceSection() {
   return (
     <section className={section} id="experience" tabIndex={0}>
       <article className={`${container} ${addClasses} items-start`}>
-        <h3 className="mr-auto w-full">Experiência</h3>
+        <SectionTitle icon="badge" title="Experiência" />
         {EXPERIENCE.map((experience, index) => (
           <div
             key={experience.id}

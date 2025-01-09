@@ -5,7 +5,7 @@ import { primaryButton, secondaryButton } from "@/styles/buttons";
 
 export default function StartSection() {
   const startContainer =
-    "flex flex-col justify-center items-left w-screen h-[55vh] p-12 bg-transparent ml-auto";
+    "flex flex-col justify-center items-left w-screen h-[55vh] pl-6 py-12 bg-transparent ml-auto";
 
   return (
     <div className={startContainer} id="start">
