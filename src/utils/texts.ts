@@ -16,7 +16,7 @@ export const EDUCATION = [
     period: "Abril 2014 - Novembro 2021",
     formation: "Bacharelado - Engenharia da Computação",
     description:
-      "O profissional de engenharia da computação tem como objetivos projetar sistemas computacionais na parte de software e até mesmo na parte de hardware. Na graduação pude obter conhecimentos técnicos relacionandos a linguagem de programação e engenharia de software, além de desenvolver a proatividade, trabalho em equipe e lidar com prazos e entregas",
+      "O profissional de engenharia da computação tem como objetivos projetar sistemas computacionais na parte de software e até mesmo na parte de hardware. Na graduação pude obter conhecimentos técnicos relacionandos a linguagem de programação e engenharia de software, além de desenvolver habilidades interpessoais, como a proatividade, trabalho em equipe e lidar com prazos e entregas",
   },
 ];
 
