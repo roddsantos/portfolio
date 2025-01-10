@@ -12,7 +12,7 @@ export default function FooterSection() {
   const footer = `md:hidden flex fixed bottom-0 w-screen justify-center mb-4`;
   const footerContainer = `${shadows} bg-background flex mx-auto px-2 py-0 items-center`;
   const link = "text-foreground hover:text-accent p-2 ml-4";
-  const icon = "bx bxs-file-pdf text-foreground sm:text-4xl text-3xl mt-[0px]";
+  const icon = "bx bxs-file-pdf text-foreground sm:text-4xl text-xl mt-[0px]";
 
   const onScroll = useCallback(() => {
     const { scrollY } = window;
@@ -39,7 +39,7 @@ export default function FooterSection() {
       <div className={footerContainer}>
         <CustomTooltip title="Currículo">
           <Resume>
-            <button className={`${link} mr-0`}>
+            <button className={`${link} ml-0`}>
               <i className={icon}></i>
             </button>
           </Resume>
@@ -47,7 +47,7 @@ export default function FooterSection() {
         {SECTIONS.map((section) => (
           <CustomTooltip key={section.icon} title={section.name}>
             <Link href={`#${section.id}`} className={link}>
-              <i className="material-icons icon text-frontground">
+              <i className="material-icons icon footer text-frontground">
                 {section.icon}
               </i>
             </Link>
