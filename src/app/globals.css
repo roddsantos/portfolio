@@ -108,5 +108,8 @@ li {
   font-size: 3rem !important;
   @media screen and (max-width: 640px) {
     font-size: 2rem !important;
+    &.footer {
+      font-size: 1.5rem !important;
+    }
   }
 }
