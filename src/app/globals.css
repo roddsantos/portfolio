@@ -36,13 +36,16 @@
 
 ::-webkit-scrollbar-thumb {
   background: var(--accent);
-  border-radius: 1rem;
+  border-radius: 0rem;
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -62,7 +65,7 @@ h2 {
 h3 {
   font: 600 2.2rem var(--font-lexend-mega);
   @media screen and (max-width: 640px) {
-    font: 700 1.8rem var(--font-lexend-mega);
+    font: 700 1.75rem var(--font-lexend-mega);
   }
 }
 
@@ -90,7 +93,7 @@ h6 {
 p {
   font: 400 1rem var(--font-open-sans);
   @media screen and (max-width: 640px) {
-    font: 600 0.8rem var(--font-open-sans);
+    font: 400 0.8rem var(--font-open-sans);
   }
 }
 
@@ -98,5 +101,12 @@ li {
   font: 400 1rem var(--font-open-sans);
   @media screen and (max-width: 640px) {
     font: 400 0.8rem var(--font-open-sans);
+  }
+}
+
+.icon {
+  font-size: 3rem !important;
+  @media screen and (max-width: 640px) {
+    font-size: 2rem !important;
   }
 }
