@@ -1,15 +1,10 @@
 "use client";
 import Resume from "@/components/Resume";
+import Section from "@/components/Section";
 import SectionTitle from "@/components/SectionTitle";
 import CustomTooltip from "@/components/Tooltip";
 import { primaryButton } from "@/styles/buttons";
-import {
-  container,
-  item,
-  section,
-  shadows,
-  transition,
-} from "@/styles/containers";
+import { container, item, shadows, transition } from "@/styles/containers";
 import { PROJECTS } from "@/utils/texts";
 import { useState } from "react";
 
@@ -26,9 +21,9 @@ export default function ProjectsSection() {
     setExpander(auxExpander);
   };
   return (
-    <section className={section} tabIndex={0}>
+    <Section id="projects">
       <article className={`${container} bg-transparent flex-wrap md:space-y-8`}>
-        <SectionTitle icon="cases" title="Projetos" />
+        <SectionTitle icon="business_center" title="Projetos" />
         {PROJECTS.map((project, index) => (
           <div
             className={`${item} bg-accent w-full`}
@@ -91,6 +86,6 @@ export default function ProjectsSection() {
           <Resume>currículo</Resume>
         </p>
       </article>
-    </section>
+    </Section>
   );
 }

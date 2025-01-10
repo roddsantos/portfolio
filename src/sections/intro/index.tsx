@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Profile from "../../../public/images/rodrigo-santos-edited.jpeg";
 import { INTRO_TEXT } from "@/utils/texts";
-import { container, section, shadows } from "@/styles/containers";
+import { container, shadows } from "@/styles/containers";
 import SectionTitle from "@/components/SectionTitle";
+import Section from "@/components/Section";
 
 export default function IntroSection() {
   return (
-    <section className={section} id="intro" tabIndex={0}>
+    <Section id="intro">
       <article
         className={`${container} justify-around bg-container-2 flex-wrap sm:flex-wrap`}
       >
@@ -22,6 +23,6 @@ export default function IntroSection() {
           {INTRO_TEXT}
         </p>
       </article>
-    </section>
+    </Section>
   );
 }

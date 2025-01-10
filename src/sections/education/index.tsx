@@ -1,6 +1,7 @@
 "use client";
+import Section from "@/components/Section";
 import SectionTitle from "@/components/SectionTitle";
-import { container, item, section } from "@/styles/containers";
+import { container, item } from "@/styles/containers";
 import { EDUCATION } from "@/utils/texts";
 import { useState } from "react";
 
@@ -21,7 +22,7 @@ export default function EducationSection() {
   };
 
   return (
-    <section className={section} id="education" tabIndex={0}>
+    <Section id="education">
       <article className={`${container} bg-container flex-wrap md:space-y-8`}>
         <SectionTitle icon="school" title="Educação" />
         {EDUCATION.map((ed, index) => (
@@ -39,6 +40,6 @@ export default function EducationSection() {
           </div>
         ))}
       </article>
-    </section>
+    </Section>
   );
 }

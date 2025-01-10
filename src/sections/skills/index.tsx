@@ -1,12 +1,13 @@
+import Section from "@/components/Section";
 import SectionTitle from "@/components/SectionTitle";
-import { section, shadows } from "@/styles/containers";
+import { shadows } from "@/styles/containers";
 import { SKILLS } from "@/utils/texts";
 
 export default function SkillsSection() {
   const grid =
     "grid w-full items-center justify-around grid-cols-[repeat(auto-fill,100px)] sm:grid-cols-[repeat(auto-fill,170px)] md:grid-cols-[repeat(auto-fill,210px)] gap-x-8";
   return (
-    <section className={section} tabIndex={0} id="skills">
+    <Section id="skills">
       <article className="bg-transparent w-full justify-start">
         <SectionTitle
           className="mb-8"
@@ -25,6 +26,6 @@ export default function SkillsSection() {
           ))}
         </div>
       </article>
-    </section>
+    </Section>
   );
 }

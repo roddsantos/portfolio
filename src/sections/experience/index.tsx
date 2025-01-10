@@ -1,14 +1,9 @@
 "use client";
 
 import Resume from "@/components/Resume";
+import Section from "@/components/Section";
 import SectionTitle from "@/components/SectionTitle";
-import {
-  container,
-  item,
-  section,
-  skill,
-  transition,
-} from "@/styles/containers";
+import { container, item, skill, transition } from "@/styles/containers";
 import { EXPERIENCE } from "@/utils/texts";
 import { useState } from "react";
 
@@ -30,7 +25,7 @@ export default function ExperienceSection() {
     "bg-background border-none shadow-none flex-wrap xl:space-y-8 justify-between";
 
   return (
-    <section className={section} id="experience" tabIndex={0}>
+    <Section id="experience">
       <article className={`${container} ${addClasses} items-start`}>
         <SectionTitle icon="badge" title="Experiência" />
         {EXPERIENCE.map((experience, index) => (
@@ -63,6 +58,6 @@ export default function ExperienceSection() {
           <Resume>currículo</Resume>
         </p>
       </article>
-    </section>
+    </Section>
   );
 }
