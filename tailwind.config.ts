@@ -26,6 +26,7 @@ export default {
       },
       fontFamily: {
         opensans: ["var(--font-open-sans)"],
+        opensansitalic: ["var(--font-open-sans-italic)"],
         roboto: ["var(--font-roboto)"],
         lexendmega: ["var(--font-lexend-mega)"],
         archivo: ["var(--font-archivo)"],
