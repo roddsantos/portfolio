@@ -25,3 +25,8 @@ export const openSans = localFont({
   ],
   variable: "--font-open-sans",
 });
+
+export const openSansItalic = localFont({
+  src: [{ path: "./OpenSans-Italic.ttf", weight: "400" }],
+  variable: "--font-open-sans-italic",
+});

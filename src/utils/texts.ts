@@ -1,5 +1,5 @@
 export const INTRO_TEXT =
-  "Desenvolvedor Full Stack especializado em desenvolvimento web, com experiência em projetos relacionados a P&D, Produção e Gerenciamento Administrativo/Logístico. Tenho conhecimento em Javascript, Typescript, NodeJS, ReactJS, AngularJS, React Native, MongoDB, MySQL, além de várias bibliotecas relacionadas a estes.";
+  "Desenvolvedor Full Stack especializado em desenvolvimento web, com 6 anos de experiência em projetos relacionados a P&D, Produção e Gerenciamento Administrativo/Logístico. Tenho conhecimento em Javascript, Typescript, NodeJS, ReactJS, AngularJS, React Native, MongoDB, MySQL, além de várias bibliotecas relacionadas a estes. Estou sempre em busca de obter conhecimento de novas tecnologias, aplicando-as em projetos e no meu ambiente de trabalho";
 
 export const EDUCATION = [
   {
@@ -16,7 +16,7 @@ export const EDUCATION = [
     period: "Abril 2014 - Novembro 2021",
     formation: "Bacharelado - Engenharia da Computação",
     description:
-      "O profissional de engenharia da computação tem como objetivos projetar sistemas computacionais na parte de software e até mesmo na parte de hardware. Na graduação pude obter conhecimentos técnicos relacionandos a linguagem de programação e engenharia de software, além de desenvolver habilidades interpessoais, como a proatividade, trabalho em equipe e lidar com prazos e entregas",
+      "O profissional de engenharia da computação tem como objetivos projetar sistemas computacionais na parte de software e até mesmo na parte de hardware. Na graduação pude obter conhecimentos técnicos relacionados a linguagem de programação e engenharia de software, além de desenvolver habilidades interpessoais, como a proatividade, trabalho em equipe e lidar com prazos e entregas",
   },
 ];
 
@@ -43,7 +43,7 @@ export const EXPERIENCE = [
     role: "Analista de Desenvolvimento de Sistemas",
     period: "Maio 2019 - Novembro 2024",
     description:
-      "Desenvolvimento de sistemas web para utilização em produção, logística, P&D e administração",
+      "Desenvolvimento de sistemas web para utilização em produção, logística, P&D e administração. Atuação principalmente no front-end, criando páginas e componentes baseados (ou não) em wireframes, além de participações pontuais em correções de bugs e criação de features no back-end dos 3 projetos em que participei",
     activities: [
       "Desenvolvimento de telas de sistemas web de acordo com modelos feitos por designers",
       "Criação de componentes específicos e/ou reutilizáveis, de fácil manutenção e adição de novas ferramentas no mesmo (criando do zero, ou utilizando bibliotecas como Material UI e Bootstrap)",
@@ -79,7 +79,7 @@ export const EXPERIENCE = [
       "redux-saga",
       "context-api",
       "material-ui",
-      "styled-comps",
+      "styled-components",
       "sass",
       "nestjs",
       "mongodb",

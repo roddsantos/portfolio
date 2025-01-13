@@ -13,13 +13,13 @@ export default function StartSection() {
       <h1 className="text-foreground font-light">Santos</h1>
       <h4 className="text-foreground mt-2">Full Stack Web Developer</h4>
       <div className="space-x-2 mt-16 flex">
-        <CustomTooltip title="Currículo">
-          <Resume>
+        <Resume>
+          <CustomTooltip title="Currículo">
             <button className={secondaryButton + " h-[50px]"}>
               <i className="bx bxs-file-pdf text-foreground text-3xl"></i>
             </button>
-          </Resume>
-        </CustomTooltip>
+          </CustomTooltip>
+        </Resume>
         <CustomTooltip title="Linkedin">
           <a
             className="h-max"
@@ -39,7 +39,7 @@ export default function StartSection() {
           </a>
         </CustomTooltip>
         <CustomTooltip title="Email">
-          <a href="mailto:rodri.soares95@gmail.com">
+          <a href="mailto:rodri.soares95@gmail.com" target="_blank">
             <button className={primaryButton + " h-[50px]"}>
               <i className="bx bxs-envelope text-foreground text-3xl"></i>
             </button>

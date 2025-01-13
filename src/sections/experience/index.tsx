@@ -54,8 +54,8 @@ export default function ExperienceSection() {
           </div>
         ))}
         <p className="font-bold text-left w-full">
-          Para mais informações de atividades, acesse o{" "}
-          <Resume>currículo</Resume>
+          Para mais informações sobre atividades e projetos realizados, acesse o{" "}
+          <Resume className="underline decoration-4">currículo</Resume>
         </p>
       </article>
     </Section>

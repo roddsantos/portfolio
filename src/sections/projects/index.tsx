@@ -83,7 +83,7 @@ export default function ProjectsSection() {
         ))}
         <p className="font-bold text-left w-full">
           Para mais informações dos projetos, acesse o{" "}
-          <Resume>currículo</Resume>
+          <Resume className="underline decoration-4">currículo</Resume>
         </p>
       </article>
     </Section>
