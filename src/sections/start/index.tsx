@@ -39,7 +39,7 @@ export default function StartSection() {
           </a>
         </CustomTooltip>
         <CustomTooltip title="Email">
-          <a href="mailto:rodri.soares95@gmail.com" target="_blank">
+          <a href="mailto:contato.roddsantos@gmail.com" target="_blank">
             <button className={primaryButton + " h-[50px]"}>
               <i className="bx bxs-envelope text-foreground text-3xl"></i>
             </button>
