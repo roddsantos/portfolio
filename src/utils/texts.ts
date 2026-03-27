@@ -61,7 +61,6 @@ export const EXPERIENCE = [
       "Comunicação ativa entre desenvolvedores de outras features (frontend e backend)",
       "Versionamento de código, criação e revisão de merge requests utilizando a ferramenta Git",
       "Uso de metodologias ágeis de gerenciamento de projetos (Scrum)",
-      "Proatividade, comunicação, trabalho em equipe",
     ],
     skills: [
       "javascript",
@@ -83,6 +82,31 @@ export const EXPERIENCE = [
       "sass",
       "nestjs",
       "mongodb",
+      "API REST",
+    ],
+  },
+  {
+    id: "eldorado",
+    name: "Instituto de Pesquisas Eldorado",
+    role: "Analista de Desenvolvimento de Sistemas",
+    period: "Abril 2025 - presente",
+    description:
+      "Análise e desenvolvimento de sistemas em cloud e servers para serviços business-to-business e business-to-client",
+    activities: [
+      "Desenvolvimento de sistemas em cloud utilizando serviços da AWS e GCP",
+      "Desenvolvimento de servers para sistemas B2Be B2C utilizando nodeJs e javascript",
+      "Identificação e correção de bugs, bem como criação de testes unitários, de integração e de carga",
+      "Resolução de bugs e aprimoramento de performance",
+    ],
+    skills: [
+      "javascript",
+      "node",
+      "sql",
+      "jest",
+      "docker",
+      "mysql",
+      "aws",
+      "gcp",
       "API REST",
     ],
   },
@@ -213,4 +237,6 @@ export const SKILLS = [
   { name: "Docker", className: "devicon-docker-plain" },
   { name: "Git", className: "devicon-git-plain" },
   { name: "Jest", className: "devicon-jest-plain" },
+  { name: "AWS", className: "devicon-amazonwebservices-plain-wordmark" },
+  { name: "GCP", className: "devicon-googlecloud-plain" },
 ];
